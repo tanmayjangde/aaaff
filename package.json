@@ -1,0 +1,22 @@
+{
+    "name": "rubex",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@xmtp/xmtp-js": "^9.1.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.1.4",
+        "ethers": "^6.5.1",
+        "express": "^4.18.2",
+        "express-async-handler": "^1.2.0",
+        "nodemon": "^2.0.20",
+        "openai": "^3.3.0"
+    }
+}
