@@ -66,4 +66,4 @@ const getConversation = async (address) => {
   return null;
 }
 
-module.exports = { generateText , testMessage, testAI};
+module.exports = { generateText};
